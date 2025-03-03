@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Invitación Javi y Salma</title>
+</head>
+<body>
+    <!-- Pantalla Inicial -->
+    <div id="inicio" class="screen">
+        <img src="fondo1.jpg" alt="Fondo Inicial" class="background">
+        <div class="content">
+            <h1>Te invitamos a nuestra celebración</h1>
+            <button id="accederBtn">Acceder</button>
+        </div>
+    </div>
+
+    <!-- Pantalla de Celebración -->
+    <div id="celebracion" class="screen" style="display:none;">
+        <img src="fondo2.jpg" alt="Fondo Celebración" class="background">
+        <div class="content">
+            <h1>Celebración Javi y Salma</h1>
+            <div id="countdown"></div>
+            <div id="mapa"></div>
+            <p>Se ruega confirmación</p>
+            <div id="menu">
+                <h2>Menú:</h2>
+                <p>Entrantes: nachos con guacamole y queso camembert, patatas fritas y frutos secos.</p>
+                <p>Principal: pizza (jamón y queso, 4 quesos, pollo y bacon, pepperoni y carbonara).</p>
+                <p>Postre: tarta de cumpleaños.</p>
+                <p>Bebidas: cerveza, Fanta, Coca Cola y agua.</p>
+                <p>Alcohol: red label, ginebra rosa, ron Barceló y Tequifresi.</p>
+                <p>Desayuno: café y leche con colacao. (solo para los que se quedan a dormir).</p>
+            </div>
+            <!-- Botón para acceder al formulario -->
+            <button id="hacerFormularioBtn">Hacer Formulario</button>
+            
+            <!-- Calendario -->
+            <div id="respuesta" style="display:none;">
+                <p id="mensajeRespuesta"></p>
+                <button id="agregarCalendarioBtn" style="display:none;">Agregar a calendario</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
