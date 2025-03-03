@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    color: gold;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: gold;
+    font-size: 2.5em;
+    text-shadow: 0 0 10px #FFD700;
+}
+
+button {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFD700;
+}
+
+button:hover {
+    background-color: darkgoldenrod;
+}
+
+.screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(5px);
+}
+
+.content {
+    z-index: 10;
+}
+
+#countdown {
+    font-size: 2em;
+    color: gold;
+    margin: 20px 0;
+}
+
+#mapa {
+    margin: 20px 0;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
+
+#menu {
+    color: gold;
+    margin: 20px 0;
+}
+
+#hacerFormularioBtn {
+    margin-top: 20px;
+    background-color: #8C7B3F;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFD700;
+}
+
+#respuesta {
+    color: gold;
+    margin-top: 20px;
+}
