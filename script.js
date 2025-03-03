@@ -26,7 +26,7 @@ function startCountdown() {
 }
 
 document.getElementById('hacerFormularioBtn').addEventListener('click', function() {
-    const formularioURL = 'https://forms.gle/tu-enlace'; // Aquí pon el enlace de tu formulario de Google Forms
+    const formularioURL = 'https://docs.google.com/forms/d/e/1FAIpQLSerygerAKYkTMw0pbHIVcfI0jJnf6guxj5Q9nQ3-Nu_h9RHSA/viewform?usp=header'; // Aquí pon el enlace de tu formulario de Google Forms
     window.location.href = formularioURL;
 });
 
