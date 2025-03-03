@@ -12,6 +12,7 @@ h1 {
     color: gold;
     font-size: 2.5em;
     text-shadow: 0 0 10px #FFD700;
+    text-align: center;
 }
 
 button {
@@ -60,13 +61,12 @@ button:hover {
     z-index: 10;
     padding: 20px;
     text-align: center;
-    width: 100%;
 }
 
 #countdown {
     font-size: 2em;
     color: gold;
-    margin: 20px auto;
+    margin: 20px 0;
     text-align: center;
 }
 
@@ -95,23 +95,6 @@ button:hover {
     cursor: pointer;
     border-radius: 5px;
     box-shadow: 0 0 10px #FFD700;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#agregarCalendarioBtn {
-    margin-top: 20px;
-    background-color: #FFD700;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    cursor: pointer;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #FFD700;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #respuesta {
