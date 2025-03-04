@@ -2,6 +2,7 @@ document.getElementById('accederBtn').addEventListener('click', function() {
     document.getElementById('inicio').style.display = 'none';
     document.getElementById('celebracion').style.display = 'block';
     document.body.style.overflow = 'auto'; // Habilitar scroll solo en la pantalla de celebración
+    document.getElementById('celebracion').style.overflowY = 'auto'; // Asegurar que se pueda hacer scroll en la pantalla de celebración
     startCountdown();
 });
 
