@@ -1,6 +1,7 @@
 document.getElementById('accederBtn').addEventListener('click', function() {
     document.getElementById('inicio').style.display = 'none';
     document.getElementById('celebracion').style.display = 'block';
+    document.body.style.overflow = 'auto'; // Habilitar scroll solo en la pantalla de celebración
     startCountdown();
 });
 
@@ -38,4 +39,12 @@ document.getElementById('agregarCalendarioBtn').addEventListener('click', functi
         endDate: new Date('May 10, 2025 23:59:59')
     };
     window.open(`https://www.google.com/calendar/render?action=TEMPLATE&text=${calendarEvent.title}&dates=${calendarEvent.startDate.toISOString().replace(/[-:]/g, '')}/${calendarEvent.endDate.toISOString().replace(/[-:]/g, '')}`, '_blank');
+});
+
+// Asegurar que el botón "Hacer Formulario" no aparezca en la pantalla de inicio
+document.getElementById('hacerFormularioBtn').style.display = 'none';
+
+document.getElementById('celebracion').addEventListener('DOMContentLoaded', function() {
+    document.getElementById('hacerFormularioBtn').style.display = 'block';
+    document.getElementById('agregarCalendarioBtn').style.display = 'block';
 });
