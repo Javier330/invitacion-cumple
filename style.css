@@ -95,6 +95,7 @@ button:hover {
     cursor: pointer;
     border-radius: 5px;
     box-shadow: 0 0 10px #FFD700;
+    display: none; /* Ocultamos el botón de formulario inicialmente */
 }
 
 #respuesta {
@@ -106,4 +107,21 @@ button:hover {
 #mapa iframe {
     width: 100%;
     height: 100%;
+}
+
+/* Bloquea el scroll en la pantalla de inicio */
+#inicio {
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Permite el scroll cuando se accede a la celebración */
+body.desbloquear-scroll {
+    overflow-y: auto;
+}
+
+/* Asegura que el botón de agregar calendario sea visible cuando se necesite */
+#agregarCalendarioBtn {
+    display: none;
+    margin-top: 10px;
 }
